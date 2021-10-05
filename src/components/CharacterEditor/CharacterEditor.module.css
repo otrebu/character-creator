@@ -6,14 +6,13 @@
 .decorativeBackground {
   position: fixed;
   bottom: 0;
-  color: hsl(195deg, 20%, 86%);
-  opacity: 0.5;
-  z-index: 0;
+  background-color: hsl(195deg, 20%, 86%);
   height: 40%;
+  width: 100%;
 }
 
 .maxWidthWrapper {
-  z-index: 1;
+  position: relative;
 }
 
 .header {
